@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Schizofrenie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Test de Schizofrenie</h1>
+    </header>
+    <div class="questionsContainer2">
+        <form id="schizofrenyTest">
+            <h2>Introducere:</h2>
+            <br>
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="prename">Prenume:</label>
+            <input type="text" id="prename" name="prename" required><br><br>
+            <label for="age">Vârstă:</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <h2>Întrebări:</h2>
+            <div id="questions2">
+                <br>
+
+            </div>
+        </form>
+        <div id="testResultSchizophrenia"></div>
+        <br>
+        <button onclick="submitTest2()">Submit</button>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-analytics-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>    
+    <script src="script.js"></script>
+</body>
+</html>
