@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Teste Psihologice - Contact</h1>
+    </header>
+    <nav>
+        <a href="Home.html">Acasă</a>
+        <a href="Despre.html">Despre</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="despre">
+            <h2>Informații de Contact</h2>
+            <p>Ne puteți contacta la adresa de e-mail <a href="mailto:alexandrubrad39@yahoo.com">alexandrubrad39@yahoo.com</a> sau folosind formularul de mai jos:</p>
+        </div>
+        <form id="contactForm">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <button onclick="submitForm()">Trimite</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
